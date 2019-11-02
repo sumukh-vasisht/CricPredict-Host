@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>CricPredicc</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../static/css/main.css" />
+		<link rel="apple-touch-icon" sizes="180x180" href="../static/images//logo-cric (2).png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../static/images//favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../static/images/favicon-16x16.png">
+		<link rel="manifest" href="../static/images/site.webmanifest">
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1><img src="../static/images/logo-cric (2).png" width="10%">CricPredicc</h1>
+				<p>We Protecc, We Attacc, But Most Importantly, We CricPredicc</p>
+			</header>
+
+		<!-- Text Form -->
+			<form id="signup-form" method="POST" action="/" enctype="multipart/form-data">
+                <select name="team1" label="Team 1">
+                    <option disabled selected>Select Team 1</option>
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="England">England</option>
+                    <option value="India">India</option>
+                    <option value="Ireland">Ireland</option>
+                    <option value="New Zealand">New Zealand</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Sri Lanka">Sri Lanka</option>
+                    <option value="West Indies">West Indies</option>
+                    <option value="Zimbabwe">Zimbabwe</option>
+                </select>
+                <select name="team2" label="Team 2">
+                    <option disabled selected>Select Team 2</option>
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="England">England</option>
+                    <option value="India">India</option>
+                    <option value="Ireland">Ireland</option>
+                    <option value="New Zealand">New Zealand</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Sri Lanka">Sri Lanka</option>
+                    <option value="West Indies">West Indies</option>
+                    <option value="Zimbabwe">Zimbabwe</option>
+                </select>
+                <!-- <select name="country">
+                    <option disabled selected>Select Venue</option>
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="England">England</option>
+                    <option value="India">India</option>
+                    <option value="Ireland">Ireland</option>
+                    <option value="New Zealand">New Zealand</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Sri Lanka">Sri Lanka</option>
+                    <option value="West Indies">West Indies</option>
+                    <option value="Zimbabwe">Zimbabwe</option>
+                </select> -->
+                <input type="submit" value="Next" onclick=index()>
+			</form>
+			<!-- <img src="{{code}}">-->
+			{{code|safe}}
+			{{link|safe}}
+
+		<!-- Scripts -->
+			<script src="../static/js/main.js"></script>
+
+	</body>
+</html>
